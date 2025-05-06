@@ -1,0 +1,33 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: sans-serif;
+}
+
+legend {
+    text-align: center; 
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+	text-transform: uppercase;
+	font-size: 1.5vw;
+}
+legend::first-letter {
+	color: #ff0000;
+    font-size: 2.0vw;
+}
+p.form-para {
+	padding: 5px 20px;
+	text-transform: uppercase;
+	width: 50%;
+	margin-bottom: 30px;
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+	background-color: #0000ff;
+	font-size: 0.8vw;
+}
+

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Dare-devil">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Form</title>
+  <!-- Latest compiled and minified CSS -->
+   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+    <body>
+		<div class="container-fluid bg-primary-subtle text-primary-emphasis border-primary-subtle text-center px-5 pt-5 pb-1 shadow">
+			<h1>Bootstrap Student Form</h1>
+			<p>Resize this responsive page to see the effect!</p>
+		</div>
+   
+        <div class="container my-5">
+            <div class="shadow bg-light mx-auto p-4" style="width:60%">
+                <form>
+	            <fieldset>
+	                <legend>Student Registration Form</legend>
+					    <!--Full Name Column-->
+	                    <div class="mb-4">
+						    <p class="form-para">Student Information</p>
+		                    <div class="row form-group">
+			                    <div class="col-sm-5">
+				                    <label for="fullname" class="col-form-label">Full Name</label>
+				                </div>
+				                <div class="col-sm-7">
+				                    <input type="text" name="fullname" id="fullname" class="form-control" placeholder="Enter Full Name.">
+				                </div>
+			                </div>
+		                </div>
+						<!--Date of birth -->
+						<div class="mb-4">
+		                    <div class="row form-group">
+			                    <div class="col-sm-5">
+				                    <label for="dof" class="col-form-label">Date of birth</label>
+				                </div>
+				                <div class="col-sm-7">
+				                    <input type="date" name="dof" id="dof" class="form-control">
+				                </div>
+			                </div>
+		                </div>
+						<!--Gender-->
+						<div class="mb-4">
+		                    <div class="row form-group">
+			                    <div class="col-sm-5">
+				                    <label class="col-form-label">Gender</label>
+				                </div>
+				                <div class="col-sm-7">
+				                    <div class="form-check form-check-inline">
+							            <input type="radio" class="form-check-input" id="male" name="gender">
+								        <label for="male" class="form-check-label">Male</label>
+							        </div>
+							        <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="female" name="gender">
+								        <label for="female" class="form-check-label">Female</label>
+							        </div>
+							        <div class="form-check form-check-inline">
+							            <input type="radio" class="form-check-input" id="common" name="gender">
+								        <label for="common" class="form-check-label">Common</label>
+							        </div>
+				                </div>
+			                </div>
+		                </div>
+						<!-- Nationality-->
+						<div class="mb-4">
+		                    <div class="row form-group">
+			                    <div class="col-sm-5">
+				                    <label for="nationality" class="col-form-label">Nationality</label>
+				                </div>
+				                <div class="col-sm-7">
+				                    <input type="text" name="nationality" id="nationality" class="form-control" placeholder="Enter Nationality">
+				                </div>
+			                </div>
+		                </div>
+						<!--Contact-->
+						<div class="mb-4">
+		                    <div class="row form-group">
+			                    <div class="col-sm-5">
+				                    <label for="contact" class="col-form-label">Contact Information</label>
+				                </div>
+				                <div class="col-sm-7">
+				                    <input type="text" name="contact" id="contact" class="form-control" placeholder="Enter Contact Information">
+				                </div>
+			                </div>
+		                </div>
+						<!--Parent Info-->
+						<div class="mb-4">
+						    <p class="form-para">Parent / Guardian Information</p>
+		                    <div class="row form-group">
+			                    <div class="col-sm-5">
+				                    <label for="parentname" class="col-form-label">Parent / Guardian Name(s)</label>
+				                </div>
+				                <div class="col-sm-7">
+				                    <input type="text" name="parentname" id="parentname" class="form-control" placeholder="Enter Guardian Name">
+				                </div>
+			                </div>
+		                </div>
+						<!--Relationship-->
+						<div class="mb-4">
+		                    <div class="row form-group">
+			                    <div class="col-sm-5">
+				                    <label for="relationship" class="col-form-label">Relationship To Student</label>
+				                </div>
+				                <div class="col-sm-7">
+				                    <input type="text" name="relationship" id="relationship" class="form-control" placeholder="Enter Relationship">
+				                </div>
+			                </div>
+		                </div>
+						<!--Guardian Number-->
+						<div class="mb-4">
+		                    <div class="row form-group">
+			                    <div class="col-sm-5">
+				                    <label for="phone" class="col-form-label">Contact Information(Phone, Email)</label>
+				                </div>
+				                <div class="col-sm-7">
+				                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Enter Phone or Email">
+				                </div>
+			                </div>
+		                </div>
+						<!--Emergency-->
+						<div class="mb-4">
+		                    <div class="row form-group">
+			                    <div class="col-sm-5">
+				                    <label for="emergency" class="col-form-label">Emergency Contact</label>
+				                </div>
+				                <div class="col-sm-7">
+				                    <input type="text" name="emergency" id="emergency" class="form-control" placeholder="Enter Emergency Contact">
+				                </div>
+			                </div>
+		                </div>
+						<!--Institute Name-->
+						<div class="mb-4">
+						    <p class="form-para">Education Information</p>
+		                    <div class="row form-group">
+			                    <div class="col-sm-5">
+				                    <label for="institute" class="col-form-label">School / Institute Name</label>
+				                </div>
+				                <div class="col-sm-7">
+				                    <input type="text" name="institute" id="institute" class="form-control" placeholder="Enter Institute Name">
+				                </div>
+			                </div>
+		                </div>
+						<!--Graduation Date-->
+						<div class="mb-4">
+		                    <div class="row form-group">
+			                    <div class="col-sm-5">
+				                    <label for="graduation" class="col-form-label">Graduation Date</label>
+				                </div>
+				                <div class="col-sm-7">
+				                    <input type="date" name="graduation" id="graduation" class="form-control">
+				                </div>
+			                </div>
+		                </div>
+						<!--About-->
+						<div class="mb-4">
+		                    <div class="row form-group">
+			                    <div class="col-sm-5">
+				                    <label for="about" class="col-form-label">How did you hear about us?</label>
+				                </div>
+				                <div class="col-sm-7">
+				                    <input type="text" name="about" id="about" class="form-control" placeholder="Tell Through 10 words">
+				                </div>
+			                </div>
+		                </div>
+						<!--program-->
+						<div class="mb-4">
+		                    <div class="row form-group">
+			                    <div class="col-sm-5">
+				                    <label for="program" class="col-form-label">Why are you interested in our program</label>
+				                </div>
+				                <div class="col-sm-7">
+				                    <input type="text" name="program" id="program" class="form-control" placeholder="10 words">
+				                </div>
+			                </div>
+		                </div>
+						
+						<!--Term-->
+						<div class="mb-4">
+		                    <div class="row form-group">
+			                    <div class="col-sm-5">
+				                    <label class="col-form-label">Are you agree to the terms and conditions of enrollment?</label>
+				                </div>
+				                <div class="col-sm-7">
+				                    <div class="form-check form-check-inline">
+							            <input type="radio" class="form-check-input" id="yes" name="terms">
+								        <label for="yes" class="form-check-label">Yes</label>
+							        </div>
+							        <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="no" name="terms">
+								        <label for="no" class="form-check-label">No</label>
+							        </div>
+							        <div class="form-check form-check-inline">
+							            <input type="radio" class="form-check-input" id="confusion" name="terms">
+								        <label for="confusion" class="form-check-label">Confusion</label>
+							        </div>
+				                </div>
+			                </div>
+		                </div>
+						
+						<!--Picture-->
+						<div class="mb-4">
+		                    <div class="row form-group">
+			                    <div class="col-sm-5">
+				                    <label for="picture" class="col-form-label">Picture</label>
+				                </div>
+				                <div class="col-sm-7">
+				                    <input type="file" name="picture" id="picture" class="form-control">
+				                </div>
+			                </div>
+		                </div>
+						
+						<!--Signature-->
+						<div class="mb-4">
+		                    <div class="row form-group">
+			                    <div class="col-sm-5">
+				                    <label for="signature" class="col-form-label">Signature</label>
+				                </div>
+				                <div class="col-sm-7">
+				                    <input type="File" name="signature" id="signature" class="form-control">
+				                </div>
+			                </div>
+		                </div>
+		                <!--Button-->
+		                <div class="mb-4">
+		                    <div class="row form-group">
+			                    <div class="col-sm-5">
+				                    <label for="signature" class="col-form-label"></label>
+				                </div>
+				                <div class="col-sm-7">
+				                    <input type="button" name="submit" value="submit" class="form-control btn btn-outline-success">
+				                </div>
+			                </div>
+		                </div>
+						
+		            </fieldset>
+	           </form>
+	        </div>
+        </div>
+    </body>
+</html>
